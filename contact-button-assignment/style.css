@@ -1,0 +1,45 @@
+/*
+MY COLOR PALETTE
+Color 1 - #001B2E
+Color 2 - #ADB6C4
+Color 3 - #4B644A
+Color 4 - #F4E285
+Color 5 - #955E42
+*/
+body
+
+{
+background-color:#001B2E;  
+text-align:center;
+}
+
+button
+
+{
+background-color:#4B644A;
+color:#ADB6C4;
+font-family: 'PT Sans Narrow', sans-serif;
+text-align:center;
+width:150px;
+padding:5px;
+border: none;
+border-radius: 2px;
+
+
+
+position:absolute; top:0; right:0;
+
+}
+button:hover
+
+{
+background-color:#955E42;
+    
+}
+h1{
+font-family:  'PT Sans Narrow', sans-serif;
+Color:#ADB6C4;
+}
+h2{
+Color:#ADB6C4;
+}
