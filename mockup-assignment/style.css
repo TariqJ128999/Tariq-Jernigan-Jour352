@@ -19,17 +19,25 @@ img {
 h1 {
 margin: 0px 200px 0px 0px;  
 font-family: 'Montserrat', sans-serif;
+font-size:70px;
 }
 h2{
-margin: 0px 200px 0px 0px;     
+margin: 0px 200px 0px 0px;
+font-size:40px;
+color: white;
+font-family: 'Montserrat', sans-serif;
     
 }
 h3{
   margin:0px 0px 0px 200px;   
+  font-size:40;
+font-family: 'Montserrat', sans-serif;
     
 }
 p{
- margin:0px 0px 0px 200px;    
+ margin:0px 0px 0px 200px;
+    font-size:20;
+    text-align:left;
     
 }
 button{
@@ -38,6 +46,9 @@ button{
     color: white;
     border-radius:10px;
     padding:10px 20px 10px 20px;
+    font-size:22;
+    text-transform: uppercase;
+    letter-spacing: normal;
     
     
 }
