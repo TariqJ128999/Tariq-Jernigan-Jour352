@@ -39,7 +39,8 @@ p{
  margin:0px 0px 0px 200px;
     font-size:20;
     text-align:left;
-    
+    letter-spacing: normal;
+     max-width:90%;
 }
 button{
   background-color: #4E553B;
