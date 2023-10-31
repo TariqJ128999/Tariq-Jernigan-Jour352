@@ -7,31 +7,32 @@ body {
 background-color: #001b2e;
 }
 
-#topper{
-
-
-}
-
-
-img {
-  
+.nav-link:hover{
+color:#4b644a;
 
 }
+
+.nav-link{
+color: #001b2e;  
+font-weight:bold;
+
+}
+    
 h1 {
 font-family: 'EB Garamond', serif;
 position: absolute; 
-  top: 95%;
+  top: 85%;
   left: 85%;
   transform: translate(-95%, -50%); 
   color: #001b2e;
     text-align: center;
-  font-size: 24px;
+  font-size: 40px;
 
 }
 h2{
 font-family: 'EB Garamond', serif;
 position: absolute; 
-  top: 100%;
+  top: 90%;
   left: 85%;
   transform: translate(-95%, -50%); 
   color: #001b2e
@@ -48,22 +49,36 @@ font-family: 'EB Garamond', serif;
 h4{
    color:#adb6c4;
  font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 3%;
+    font-size: 25px;
+     border-bottom: 2px solid;
+    border-bottom-color: #4b644a;
+   display: inline;
+  font-weight: bold; 
 }
 h5{
   color:#adb6c4;
   font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0.75%;
     }
 h6{
     color:#adb6c4;
  font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 3%;
     }
     li {
   color:#adb6c4;
    font-family: 'Cormorant Garamond', serif;
     }
+h7{
+     color:#adb6c4;
+   font-family: 'Cormorant Garamond', serif;
+    font-size: 2
+    }
 p{
   color:#adb6c4;
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'EB Garamond', serif;
+    margin-bottom: 5%;
 }
 button{
 color:#adb6c4;
@@ -76,14 +91,15 @@ color:#adb6c4;
   box-shadow: 0 2px 4px;
   transition: background-color 0.3s; 
   background-color:#001b2e;
- font-family: 'Cormorant Garamond', serif;
-  margin: 0 0 0 260px;
+ 
+  margin: 0 0 0 200px;
+font-style: normal;
   
 
     
 }
 button:hover{
-    background-color:#A38776;
+    background-color:#4b644a;
     
 }
 
@@ -91,11 +107,11 @@ button:hover{
   background-image: url('IMG-0367.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   background-color: #001b2e;
   width: 100%;
-  height: 900px;
-
+  height: 850px;
+  background-position: center center;
+border-bottom: 8px solid #adb6c4 ;
     }
 
 #footer {
@@ -118,28 +134,36 @@ nav {
 nav ul {
   list-style: none;
   text-align: center;
- text-decoration: none;
+    
 }
 
 nav ul li {
   display: inline;
   margin-right: 160px;
 font-family: 'EB Garamond', serif;
- color:#adb6c4;
 font-size: 30px;
- text-decoration: none;
+
 }
+
+
 
 nav ul li a {
   text-decoration: none;
-   color:#adb6c4;
+ 
 }
 
 }
 
-@media (min-width:576px) 
+@media (max-width:576px) 
 {
     h1 {
-font-size:40px; 
+font-size:25px; 
+top: 55%;
+background-color: #adb6c4;
 } 
+    h2{
+top: 65%;
+font-size: 20px;
+background:#adb6c4;
+    }
 }
