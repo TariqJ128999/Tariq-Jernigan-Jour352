@@ -1,5 +1,27 @@
- body {
-        width:70%;
-        margin:auto;
-        font-family: Georgia, serif;
-    }
+
+h1{
+font-family: 'EB Garamond', serif;      
+}
+
+h2{
+font-family: 'EB Garamond', serif;   
+font-size: 18px;
+color: gray;
+}
+h3{
+font-family: 'EB Garamond', serif;   
+font-size:12px;
+}
+
+
+p {
+font-family: 'EB Garamond', serif;
+        
+}
+
+img {
+  max-width: 80%; 
+      height: auto;
+      display: block;
+      margin: 0 auto; 
+}

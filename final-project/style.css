@@ -1,0 +1,74 @@
+@media{
+h1{
+font-family: 'EB Garamond', serif;    
+font-style: normal;
+font-weight: 700;
+margin-left: 200px;
+margin-right: 200px;
+
+}
+
+h2{
+font-family: 'EB Garamond', serif;   
+font-size: 18px;
+color: gray;
+margin-left: 210px;
+margin-right: 210px;
+}
+h3{
+font-family: 'EB Garamond', serif;   
+font-size:12px;
+text-align: center;
+}
+
+
+p {
+font-family: 'EB Garamond', serif;
+margin-left: 200px;
+margin-right: 200px;
+font-size: 20px;
+        
+}
+
+img {
+  max-width: 80%; 
+      height: auto;
+      display: block;
+      margin: 0 auto; 
+}
+.caption {
+      margin-top: 4px; 
+      margin-left: 150px;
+      color: gray;
+    font-family: 'EB Baramond', cursive;
+    font-size: 10px;
+    
+}
+
+.twitter-tweet {
+margin-left: 450px;
+margin-right: 450px;
+}
+  blockquote {
+font-family: 'EB Baramond', cursive;
+border-left: 4px solid #3498db;
+padding-left: 20px;
+margin: 20px 0;
+background-color: #ecf0f1;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+margin-left: 200px;
+margin-right: 200px;
+}
+@media(min-width:768px;)
+{
+    
+    
+}
+
+    
+    
+    
+    
+    
+    <div class="flourish-embed flourish-chart" data-src="visualisation/15995819"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
