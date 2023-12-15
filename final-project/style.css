@@ -49,21 +49,66 @@ img {
 margin-left: 450px;
 margin-right: 450px;
 }
-  blockquote {
-font-family: 'EB Baramond', cursive;
-border-left: 4px solid #3498db;
-padding-left: 20px;
-margin: 20px 0;
-background-color: #ecf0f1;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
+    
+.quote-box {
 margin-left: 200px;
 margin-right: 200px;
+padding: 20px;
+background-color: #ADB6C4; 
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+position: relative;
 }
-@media(min-width:768px;)
-{
-    
-    
+
+blockquote {
+font-size: 23px;
+font-style: italic;
+color: #001B2E;
+margin-bottom: 20px;
+}
+
+.quote-author {
+font-size: 1.2rem;
+font-weight: bold;
+color: black;
+}
+.chart-container {
+margin-left: 200px;
+margin-right: 200px;
+
+}
+.custom-margin-paragraph {
+  margin-bottom: 20px; 
+margin-top: 30px; 
+}
+.custom-margin-p {
+  margin-bottom: 40px; 
+margin-top: 30px; 
+    }
+.smaller-image {
+width: 50%;
+height: 100%;
+
+    }
+
+  .video-container {
+      position: relative;
+      width: 70%; 
+      padding-bottom: 40%; 
+      margin-top: 20px;
+      margin-left: auto; 
+      margin-right: auto;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
 }
 
     
@@ -71,4 +116,4 @@ margin-right: 200px;
     
     
     
-    <div class="flourish-embed flourish-chart" data-src="visualisation/15995819"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ 
