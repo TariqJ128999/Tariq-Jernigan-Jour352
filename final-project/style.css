@@ -2,18 +2,22 @@
 h1{
 font-family: 'EB Garamond', serif;    
 font-style: normal;
-font-weight: 700;
-margin-left: 200px;
-margin-right: 200px;
+font-weight:700;
+
+
 
 }
+    .specs{
+
+font-size:16px;
+margin-top: 10px;
+    }
 
 h2{
 font-family: 'EB Garamond', serif;   
 font-size: 18px;
 color: gray;
-margin-left: 210px;
-margin-right: 210px;
+
 }
 h3{
 font-family: 'EB Garamond', serif;   
@@ -24,9 +28,8 @@ text-align: center;
 
 p {
 font-family: 'EB Garamond', serif;
-margin-left: 200px;
-margin-right: 200px;
 font-size: 20px;
+width:100%;
         
 }
 
@@ -37,22 +40,24 @@ img {
       margin: 0 auto; 
 }
 .caption {
-      margin-top: 4px; 
-      margin-left: 150px;
       color: gray;
     font-family: 'EB Baramond', cursive;
     font-size: 10px;
     
 }
-
-.twitter-tweet {
-margin-left: 450px;
-margin-right: 450px;
+.tweet-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+ 
 }
-    
+.twitter-tweet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 .quote-box {
-margin-left: 200px;
-margin-right: 200px;
+
 padding: 20px;
 background-color: #ADB6C4; 
 border-radius: 10px;
@@ -73,11 +78,9 @@ font-size: 1.2rem;
 font-weight: bold;
 color: black;
 }
-.chart-container {
-margin-left: 200px;
-margin-right: 200px;
 
-}
+
+
 .custom-margin-paragraph {
   margin-bottom: 20px; 
 margin-top: 30px; 
@@ -87,8 +90,10 @@ margin-top: 30px;
 margin-top: 30px; 
     }
 .smaller-image {
-width: 50%;
-height: 100%;
+  max-width: 50%; 
+      height: auto;
+      display: block;
+      margin: 0 auto; 
 
     }
 
@@ -108,12 +113,89 @@ height: 100%;
       width: 100%;
       height: 100%;
     }
+}
+
+@media(min-width:667px) {
+    .tweet-container {
+        padding: 10px; 
+    }
+ margin: 0 auto; 
+    
+h1 {
+font-family: 'EB Garamond', serif;    
+font-style: normal;
+font-weight: 0;
+font-size:20px;
 
 }
 
+h2{
+font-family: 'EB Garamond', serif;   
+font-size: 16px;
+color: gray;
+ margin: 0 auto; 
+}
+h3{
+font-family: 'EB Garamond', serif;   
+font-size:12px;
+text-align: center;
+ margin: 0 auto; 
+
+}
+
+
+p {
+font-family: 'EB Garamond', serif;
+width: 80%;
+ margin: 0 auto; 
+margin-bottom: 20px;
+        
+}
     
+@media(max-width: 480px) {
     
+.quote-box {
+        padding: 10px; 
+        font-size: 11px; 
+    }
+
+.blockquote {
+        font-size: 11px; 
+        
+    }
+}
+@media(min-width:843px) {
+        
+  h1 {
+
+margin-left: 200px;
+margin-right: 200px;
+
+}
+h2{
+
+margin-left: 210px;
+margin-right: 210px;     
+     }  
+
+ .caption {
+      margin-top: 4px; 
+      margin-left: 150px;    
+} 
+.specs{
+font-size:13px;
+        }
+.quote-box {
     
-    
-    
- 
+margin-left: 200px;
+margin-right: 200px;
+        }
+    .chart-container{
+margin-left: 200px;
+margin-right: 200px;
+    }
+    }
+ @media (min-width: 652px) {
+
+
+    }
